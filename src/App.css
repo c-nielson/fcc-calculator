@@ -14,6 +14,7 @@
 	width: 100vw;
 	height: 100vh;
 	background: radial-gradient(ellipse at top right, #b64dbfe6, transparent), radial-gradient(ellipse at bottom left, #5e97d5, transparent);
+	oveerflow: scroll;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -114,13 +115,15 @@ span {
 
 #header {
 	font-size: 28px;
-	margin: auto;
+	margin-top: auto;
+	text-align: center;
 }
 
 #footer {
-	font-size: 10px;
+	font-size: 18px;
 	margin-bottom: auto;
 	padding: 3px 0;
+	text-align: center;
 }
 
 #display span {
@@ -136,7 +139,6 @@ span {
 	height: 50vh;
 	padding: 0.5%;
 	min-width: 170px;
-	overflow: scroll;
 	min-height: 220px;
 	border-radius: 1%;
 }
