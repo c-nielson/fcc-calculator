@@ -113,8 +113,8 @@ const NumberPad = ({
 			text,
 			multiply,
 			divide,
-			add,
-			subtract
+			subtract,
+			add
 		)
 	}
 
